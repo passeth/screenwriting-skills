@@ -1,64 +1,64 @@
 # screenwriting-skills
 
-[中文版](README_ZH.md)
+[원문 저장소](https://github.com/jtydhr88/screenwriting-skills) · [원문 중국어 README](https://github.com/jtydhr88/screenwriting-skills/blob/main/README_ZH.md)
 
-12 Claude Code skills for screenwriting and dramaturgy, distilled from 19 books (Chinese, American and Japanese) plus two complete master-work corpora: Chekhov's plays and Ozu Yasujiro's screenplays.
+중국·미국·일본 시나리오/극작 이론서 19권과 두 세트의 거장 작품 전집(체호프 희곡 전집, 오즈 야스지로 시나리오집)을 정제해 만든 12개의 Claude Code 스킬.
 
-Skill bodies are written in Chinese (the sources and quotations are Chinese translations); frontmatter descriptions are in English with Chinese keywords so both languages trigger them.
+이 저장소는 [jtydhr88/screenwriting-skills](https://github.com/jtydhr88/screenwriting-skills)의 한국어 번역 포크입니다. 스킬 본문과 frontmatter를 모두 한국어로 옮겼습니다.
 
-## Install
+## 설치
 
 ```
-/plugin marketplace add jtydhr88/screenwriting-skills
+/plugin marketplace add passeth/screenwriting-skills
 /plugin install screenwriting@screenwriting-skills
 ```
 
-## Skills
+## 스킬
 
-| Skill | What it covers | Main sources |
+| 스킬 | 다루는 내용 | 주요 출처 |
 |---|---|---|
-| `sw-story-structure` | Paradigm & plot points, Save the Cat beats and board, McKee's event/scene/sequence/act, inciting incident, progressive complications, crisis-climax-resolution, subplots, Hoxter's nine beats, Hicks' attraction/anticipation/satisfaction, Lu Jun's 起承转合, eight openings, eight endings | Field, Snyder, McKee *Story*, Hoxter, Hicks, Lu Jun |
-| `sw-premise-theme` | Premise as tyrant, controlling idea (value + cause), the "third rail" (desire vs misbelief), five premise questions, logline tests, 选材/开掘/视角/戏核/冲突要真/情节要奇 | Egri, McKee, Cron, Hicks, Hoxter, Snyder, Lu Jun |
-| `sw-character-conflict` | Three-dimensional character, orchestration, unity of opposites, pivotal character, rising vs static vs jumping conflict, transition; Freud/Erikson/Jung/Campbell/Murdock/Adler/May for motive; 人物要活八要, 对手要强, 给对手一把刀 | Egri, Indick, McKee, Hicks, Cron, Snyder, Lu Jun |
-| `sw-dialogue` | Dialogue as action, said/unsaid/unsayable, exposition as ammunition, beats as gerunds, credibility/language/content/design flaws, character-specific vocabulary, seven scene analyses; 语言要美 (典雅/通俗, 动作性/性格化/潜台词, 戏曲唱词三好) | McKee *Dialogue*, Walter, Hicks, Lu Jun, Egri, Snyder, Mei Feng |
-| `sw-scene-craft` | Scene as value turn, five-step scene analysis, enter late leave early, pacing and transitions, action over talk, alternative locations; 意趣要足 (suspense, delay, wit), 细节要妙, 道具要精, 场景要当 | McKee, Field, Hicks, Walter, Henson, Hoxter, Mei Feng, Lu Jun |
-| `sw-format-adaptation` | Spec format hard rules, action-paragraph craft, drafts and outlines (step outline → treatment → script), revision, adaptation principles | Henson, Walter, Hicks, Field, McKee, Hoxter, Diamond & Weissman, Bork |
-| `sw-american-case-studies` | Worked examples: Westerns, screwball, Wilder, Hitchcock, *Adaptation*, *Mildred Pierce*, *Thelma & Louise*, *Fargo*, *Good Will Hunting*, *American Beauty*, *Eternal Sunshine*, *American Graffiti*, Bourne, Guardians, Zootopia, Thor | Mei Feng, Walter, masterclass, Hoxter, Snyder, Field |
-| `sw-japanese-screenwriting` | Ten Japanese directors/writers: structure-first vs fragment-first methods, small-material notebooks, "if + moreover", character = actor + flaw, tsukkomi systems, theme-emerges-later, originals born from constraints; Arai Haruhiko | 泊贵洋 ed., masterclass (international) |
-| `sw-korean-french-screenwriting` | Korean and French methods from the international masterclass: Oh Seung-uk (write the emotion, research before writing, structure as space, find your own angle), Choi Seok-hwan (genre as a promise, make the audience wait, two reversals, desire and crisis), Obitan (French system, write dialogue last, viewpoint and hidden motive, writer on set, collective writing) | masterclass (international) |
-| `sw-industry-business` | Buyer's-eye workflow, PROBLEM idea test, logline/query/pitch, agents, options, credits, WGA, gross vs net, notes and rewrites, film vs TV, Oscar logic, career resilience | Diamond & Weissman, Bork, Hicks, Walter, Henson, Snyder, Hoxter, Mei Feng, masterclass |
-| `chekhov-dramaturgy` | Chekhov's seven full-length plays and one-acts as a working method: structure, character, dialogue, sound and stage directions, revision (Wood Demon → Uncle Vanya), with act-by-act tables and excerpts | 契诃夫戏剧全集 (焦菊隐/童道明/李健吾译) |
-| `ozu-screenplay-style` | Ozu Yasujiro's six screenplays as a working method: shared skeleton, marriage-of-a-daughter structure, dialogue register, format, theme sentences, with scene tables and excerpts | 小津安二郎剧本集 |
+| `sw-story-structure` | 패러다임과 플롯 포인트, 세이브 더 캣 비트와 보드, 맥키의 사건/장면/시퀀스/막, 촉발 사건, 점진적 복잡화, 위기-클라이맥스-결말, 서브플롯, 혹스터의 9비트, 힉스의 흡인력/기대/만족, 육준의 기승전결, 여덟 가지 시작, 여덟 가지 결말 | 필드, 스나이더, 맥키 《스토리》, 혹스터, 힉스, 육준 |
+| `sw-premise-theme` | 폭군으로서의 전제, 통제 사상(가치 + 원인), “제3의 궤도”(욕망 vs 잘못된 믿음), 전제 다섯 질문, 로그라인 검증, 소재 선정/심화/시점/극의 핵/갈등은 진짜여야 함/플롯은 기이해야 함 | 에그리, 맥키, 크론, 힉스, 혹스터, 스나이더, 육준 |
+| `sw-character-conflict` | 입체적 인물, 편성, 대립의 통일, 추동 인물, 상승 vs 정적 vs 도약 갈등, 전환; 동기 분석을 위한 프로이트/에릭슨/융/캠벨/머독/아들러/메이; 인물은 살아 있어야 한다 여덟 요건, 상대는 강해야 한다, 상대에게 칼을 쥐여 주어라 | 에그리, 인딕, 맥키, 힉스, 크론, 스나이더, 육준 |
+| `sw-dialogue` | 행동으로서의 대사, 말한 것/말하지 않은 것/말할 수 없는 것, 정보 전달을 탄약으로, 동명사 비트, 신뢰성/언어/내용/설계 결함, 인물별 어휘, 일곱 장면 분석; 언어는 아름다워야 한다(전아/통속, 동작성/성격화/속마음, 창사의 세 가지 미덕) | 맥키 《대화》, 월터, 힉스, 육준, 에그리, 스나이더, 메이펑 |
+| `sw-scene-craft` | 가치 전환으로서의 장면, 5단계 장면 분석, 늦게 들어가 일찍 나와라, 리듬과 전환, 말보다 행동, 대체 장소; 뜻과 재미가 충분해야 한다(서스펜스, 지연, 재치), 디테일은 묘해야 한다, 소품은 정밀해야 한다, 장소는 적절해야 한다 | 맥키, 필드, 힉스, 월터, 핸슨, 혹스터, 메이펑, 육준 |
+| `sw-format-adaptation` | 스펙 포맷의 엄격한 규칙, 액션 문단 기법, 초고와 아웃라인(스텝 아웃라인 → 트리트먼트 → 스크립트), 수정, 각색 원칙 | 핸슨, 월터, 힉스, 필드, 맥키, 혹스터, 다이아몬드 & 와이즈먼, 보크 |
+| `sw-american-case-studies` | 실전 사례: 서부극, 스크루볼, 와일더, 히치콕, 《어댑테이션》, 《밀드레드 피어스》, 《델마와 루이스》, 《파고》, 《굿 윌 헌팅》, 《아메리칸 뷰티》, 《이터널 선샤인》, 《아메리칸 그래피티》, 본, 가디언즈, 주토피아, 토르 | 메이펑, 월터, 마스터클래스, 혹스터, 스나이더, 필드 |
+| `sw-japanese-screenwriting` | 일본 감독/작가 10인: 구조 우선 vs 조각 우선 방법, 작은 소재 노트, “만약 + 게다가”, 인물 = 배우 + 결함, 쓰코미 체계, 주제는 나중에 드러난다, 제약에서 태어나는 오리지널; 아라이 하루히코 | 하쿠 다카히로 편, 마스터클래스(국제) |
+| `sw-korean-french-screenwriting` | 국제 마스터클래스의 한국·프랑스 방법: 오승욱(감정을 써라, 쓰기 전에 취재하라, 구조는 공간이다, 자신만의 각도를 찾아라), 최석환(장르는 약속이다, 관객을 기다리게 하라, 두 번의 반전, 욕망과 위기), 오비탄(프랑스 체계, 대사는 마지막에 써라, 시점과 숨은 동기, 현장에 있는 작가, 집단 창작) | 마스터클래스(국제) |
+| `sw-industry-business` | 구매자 시점의 워크플로, PROBLEM 아이디어 테스트, 로그라인/쿼리/피치, 에이전트, 옵션, 크레딧, WGA, 총수익 vs 순수익, 노트와 리라이트, 영화 vs TV, 오스카 논리, 커리어 회복탄력성 | 다이아몬드 & 와이즈먼, 보크, 힉스, 월터, 핸슨, 스나이더, 혹스터, 메이펑, 마스터클래스 |
+| `chekhov-dramaturgy` | 체호프의 장막극 일곱 편과 단막극을 실전 방법으로: 구조, 인물, 대사, 음향과 무대지시, 개작(《숲의 정》→《바냐 아저씨》), 막별 표와 발췌 | 《체호프 희곡 전집》(자오쥐인/퉁다오밍/리젠우 역) |
+| `ozu-screenplay-style` | 오즈 야스지로의 시나리오 여섯 편을 실전 방법으로: 공유 골격, 딸의 혼인 구조, 대사 레지스터, 포맷, 주제문, 장면 표와 발췌 | 《오즈 야스지로 시나리오집》 |
 
-Each skill has a `SKILL.md` (principles, checklists, workflow) and most have a `reference.md` (tables, worked analyses, excerpts).
+각 스킬에는 `SKILL.md`(원리, 체크리스트, 워크플로)가 있고, 대부분 `reference.md`(표, 실전 분석, 발췌)가 함께 있습니다.
 
-## Source books (19)
+## 출처 도서 (19)
 
-- 悉德·菲尔德《电影剧本写作基础》
-- 布莱克·斯奈德《救猫咪》
-- 罗伯特·麦基《故事》
-- 罗伯特·麦基《对白》
-- 朱利安·霍克斯特《编剧的十二条法则》
-- 尼尔·D·希克斯《编剧的核心技巧》
-- 拉约什·埃格里《编剧的艺术》
-- 莉萨·克龙《怎样写故事》
-- 威廉·尹迪克《编剧心理学》
-- 理查德·沃尔特《剧本》
-- 温迪·简·汉森《编剧：步步为营》
-- 戴蒙德 & 韦斯曼《好莱坞编剧的生意经》
-- 埃里克·博克《如何写出好故事：HBO 大师写作课》
-- 梅峰《编剧的自修课：解读美国电影剧作》
-- 刘大鹏编《故事创作大师班（国际卷）》
-- 陆军《编剧理论与技法：从小型戏剧的文本写作切入》
-- 泊贵洋编《从零开始做编剧：10 位日本金牌导演、编剧谈剧本》
-- 《契诃夫戏剧全集》
-- 《小津安二郎剧本集》
+- 시드 필드 《시나리오란 무엇인가》
+- 블레이크 스나이더 《Save the Cat! 시나리오 쓰기》
+- 로버트 맥키 《스토리》
+- 로버트 맥키 《대화》
+- 줄리언 혹스터 《시나리오 작가의 열두 가지 법칙》
+- 닐 D. 힉스 《시나리오 핵심 기법》
+- 러요시 에그리 《극작 예술》
+- 리사 크론 《이야기를 쓰는 법》
+- 윌리엄 인딕 《시나리오 심리학》
+- 리처드 월터 《시나리오》
+- 웬디 제인 핸슨 《시나리오: 한 걸음씩》
+- 다이아몬드 & 와이즈먼 《할리우드 시나리오 작가의 비즈니스》
+- 에릭 보크 《좋은 이야기를 쓰는 법: HBO 마스터 라이팅 클래스》
+- 메이펑 《시나리오 독학 수업: 미국 영화 극작 읽기》
+- 류다펑 편 《이야기 창작 마스터클래스(국제권)》
+- 육준 《극작 이론과 기법: 소형 연극 텍스트 쓰기에서 출발하여》
+- 하쿠 다카히로 편 《제로부터 시나리오 작가 되기: 일본 골드 감독·작가 10인이 말하는 시나리오》
+- 《체호프 희곡 전집》
+- 《오즈 야스지로 시나리오집》
 
-## Conventions
+## 약속
 
-- `SKILL.md` frontmatter: `name` (kebab-case, matches folder) and a long English `description` ending in "Use when …", with Chinese keywords in parentheses for triggering.
-- Skill bodies are Chinese; numbered principles, tables and checklists; cross-references between skills by folder name.
-- `reference.md` holds worked examples and quotations so `SKILL.md` stays under ~60 KB.
-- License: for personal study use. Quotations remain the property of their authors and translators.
+- `SKILL.md` frontmatter: `name`(케밥 케이스, 폴더명과 일치)과 긴 한국어 `description`. 끝은 “다음 경우에 사용하세요 …”로 맺고, 괄호 안에 트리거용 한국어 키워드를 둡니다.
+- 스킬 본문은 한국어입니다. 번호 매긴 원칙, 표, 체크리스트를 쓰고, 스킬 간 교차 참조는 폴더명으로 합니다.
+- `reference.md`가 실전 예와 인용을 맡아 `SKILL.md`가 약 60 KB를 넘지 않게 합니다.
+- 라이선스: 개인 학습용. 인용문의 권리는 원저자와 번역자에게 있습니다.
 
-Sister project, same idea applied to Japanese composition and arranging: [japanese-composition-skills](https://github.com/jtydhr88/japanese-composition-skills).
+같은 발상으로 일본 작곡·편곡에 적용한 자매 프로젝트: [japanese-composition-skills](https://github.com/jtydhr88/japanese-composition-skills).

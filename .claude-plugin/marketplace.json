@@ -4,13 +4,13 @@
     "name": "terry"
   },
   "metadata": {
-    "description": "Skills distilled from 19 screenwriting / dramaturgy books (Chinese, American and Japanese) plus two master-work corpora: Chekhov's complete plays and Ozu Yasujiro's screenplays"
+    "description": "중국·미국·일본 시나리오/극작 이론서 19권과 두 세트의 거장 작품 전집(체호프 희곡 전집, 오즈 야스지로 시나리오집)에서 정제해 만든 스킬. 한국어 번역본."
   },
   "plugins": [
     {
       "name": "screenwriting",
       "source": "./plugins/screenwriting",
-      "description": "12 skills: story structure, premise & theme, character & conflict psychology, dialogue, scene craft, format & adaptation, American case studies, Japanese screenwriting method, Korean & French screenwriting, industry & business, Chekhov dramaturgy, Ozu screenplay style"
+      "description": "12개 스킬: 이야기 구조, 전제와 주제, 인물과 갈등 심리, 대사, 장면 기법, 포맷과 각색, 미국 사례 연구, 일본 시나리오 작법, 한국·프랑스 시나리오 작법, 산업과 비즈니스, 체호프 극작술, 오즈 시나리오 스타일"
     }
   ]
 }

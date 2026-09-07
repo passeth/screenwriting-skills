@@ -1,11 +1,11 @@
 {
   "name": "screenwriting",
-  "description": "12 skills covering story structure, premise & theme, character & conflict psychology, dialogue, scene craft, format & adaptation, American case studies, Japanese screenwriting method, Korean & French screenwriting, industry & business, plus Chekhov dramaturgy and Ozu screenplay style, distilled from 19 books",
+  "description": "이야기 구조, 전제와 주제, 인물과 갈등 심리, 대사, 장면 기법, 포맷과 각색, 미국 사례 연구, 일본 시나리오 작법, 한국·프랑스 시나리오 작법, 산업과 비즈니스, 체호프 극작술, 오즈 시나리오 스타일을 다루는 12개 스킬. 이론서 19권에서 정제. 한국어 번역본.",
   "version": "1.1.0",
   "author": {
     "name": "terry"
   },
-  "license": "For personal study use",
-  "keywords": [ "screenwriting", "dramaturgy", "story-structure", "character", "dialogue", "adaptation", "chekhov", "ozu" ],
+  "license": "개인 학습용",
+  "keywords": [ "screenwriting", "dramaturgy", "story-structure", "character", "dialogue", "adaptation", "chekhov", "ozu", "시나리오", "극작", "각색" ],
   "skills": "./skills"
 }
